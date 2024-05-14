@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Bán Hàng</title>
+    <link rel="stylesheet" href="GiaoDien.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Ranger Sport</div>
+        <nav>
+            <ul>
+                <li><a href="">Trang Chủ</a></li>
+                <li><a href="SanPham.html">Sản Phẩm</a></li>
+                <li><a href="LienHe.html">Liên Hệ</a></li>
+                <li><a href="DangNhap.html">Đăng nhập</a></li>
+                <li><a href="DangKy.html">Đăng Ký</a></li>
+                <li><a href="GioHang.html">Giỏ Hàng</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>Chào mừng bạn đến với Ranger Sport</h1>
+        <p>Khám phá những sản phẩm tuyệt vời của chúng tôi</p>
+    </section>
+
+    <section class="featured-products">
+        <h2>Sản Phẩm Nổi Bật</h2>
+        <div class="product">
+            <img src="d:\image\Lamborghini Urus 4.0 V8 2022.jpeg" alt="Sản phẩm 8">
+            <h3>Lamborghini Urus 4.0 V8 2022</h3>
+            <p>Giá: 18.500.000.000đ</p>
+            <a onclick="addToCart('Lamborghini Urus 4.0 V8 2022', 18500000000)" class="btn-buy">Thêm Vào Giỏ Hàng</a>
+            <a href="ChiTiet8.html" class="btn-buy">Xem chi tiết</a>
+        </div>
+
+        <div class="product">
+            <img src="d:\image\Mercedes-Benz S580 2023.jpg" alt="Sản phẩm 7">
+            <h3>Mercedes-Benz S580 2023</h3>
+            <p>Giá: 16.000.000.000đ</p>
+            <a onclick="addToCart('Mercedes-Benz S580 2023', 16000000000)" class="btn-buy">Thêm Vào Giỏ Hàng</a>
+            <a href="ChiTiet7.html" class="btn-buy">Xem chi tiết</a>
+        </div>
+        <script src="GiaoDien.js"></script>
+        <!-- Thêm các sản phẩm khác tại đây -->
+    </section>
+
+</body>
+</html>

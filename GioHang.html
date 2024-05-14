@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Giỏ hàng</title>
+    <link rel="stylesheet" href="GioHang.css"> <!-- File CSS -->
+</head>
+<body>
+    <header>
+        <h1>Giỏ hàng</h1>
+        <button onclick="goToHome()">Trang chủ</button>
+    </header>
+
+    <div class="cart">
+        <h2>Giỏ hàng</h2>
+        <ul id="cart-items"></ul>
+        <p id="total">Tổng: </p>
+        <button onclick="checkout()">Thanh toán</button>
+    </div>
+
+    <script src="cart.js"></script>
+    <script src="ChiTiet.js"></script>
+     <!-- File JavaScript cho trang giỏ hàng -->
+</body>
+</html>
